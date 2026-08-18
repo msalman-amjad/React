@@ -1,10 +1,11 @@
 import Salman from "./salman.jsx"
 function App() {
-
+  const username = "salman"
   return (
+    <>
 
-    <Salman />
-
+      <h1>custom react app by {username}</h1> {/* evaluation expression */}
+    </>
   )
 }
 
