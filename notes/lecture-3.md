@@ -1,6 +1,6 @@
 # Lecture 3: Fundamental React Project Structure & Flow
 
-**Source:** Chai aur Code
+**Source:** Chai aur Code youtube channel
 
 **Overview:** Understanding the fundamental React project structure and the flow of how a React application gets injected into an HTML page. The underlying logic remains consistent whether using `create-react-app` or `Vite`.
 
