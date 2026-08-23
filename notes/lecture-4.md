@@ -6,11 +6,11 @@
 
 ## Key Concepts Covered
 
-* **React is Just JavaScript (20:00):** You do not need magic to understand React. Everything React does behind the scenes is just vanilla JavaScript manipulating the DOM.
-* **How Elements are Created (7:15, 30:50):** When you write UI components, React turns them into plain JavaScript objects that represent the structure of your app (the "Virtual DOM tree"). React has a built-in method called `React.createElement` that handles this conversion.
-* **The Custom Renderer (10:00):** To prove how React works, we can build a `customRender` function. This function takes a JavaScript object (the blueprint) and uses standard DOM commands (`document.createElement`, `appendChild`) to manually inject it into the browser's Real DOM.
-* **JSX Explained (21:00):** JSX looks like HTML inside JavaScript, but it is just "syntactic sugar". Browsers cannot read it. Tools like Babel automatically convert your JSX into those plain JavaScript objects before the browser ever sees it.
-* **Exploring the Source (43:00):** Looking directly at the actual React source code on GitHub shows where methods like `createElement` are defined. It proves that React is just code you can read and learn from.
+* **React is Just JavaScript:** You do not need magic to understand React. Everything React does behind the scenes is just vanilla JavaScript manipulating the DOM.
+* **How Elements are Created:** When you write UI components, React turns them into plain JavaScript objects that represent the structure of your app (the "Virtual DOM tree"). React has a built-in method called `React.createElement` that handles this conversion.
+* **The Custom Renderer:** To prove how React works, we can build a `customRender` function. This function takes a JavaScript object (the blueprint) and uses standard DOM commands (`document.createElement`, `appendChild`) to manually inject it into the browser's Real DOM.
+* **JSX Explained:** JSX looks like HTML inside JavaScript, but it is just "syntactic sugar". Browsers cannot read it. Tools like Babel automatically convert your JSX into those plain JavaScript objects before the browser ever sees it.
+* **Exploring the Source:** Looking directly at the actual React source code on GitHub shows where methods like `createElement` are defined. It proves that React is just code you can read and learn from.
 
 ---
 

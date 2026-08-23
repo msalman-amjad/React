@@ -6,16 +6,16 @@
 
 ## Key Concepts Covered
 
-* **Single Page Application (SPA) Flow (6:40):** A single `index.html` file (with a root div) serves as the container. React uses the `react-dom` library to create a virtual DOM and render components into that root element.
-* **Project Structure (2:53):** 
+* **Single Page Application (SPA) Flow:** A single `index.html` file (with a root div) serves as the container. React uses the `react-dom` library to create a virtual DOM and render components into that root element.
+* **Project Structure:** 
   * `node_modules`: Contains all project dependencies.
   * `package.json`: Holds metadata and script commands.
   * `src` folder: The main working directory where your custom components live.
-* **Component Basics (18:03):** A React component is essentially a JavaScript function that returns HTML/JSX. It is then imported and rendered in the main entry file (`main.jsx` or `index.js`).
-* **Best Practices (22:08, 30:00):** 
+* **Component Basics:** A React component is essentially a JavaScript function that returns HTML/JSX. It is then imported and rendered in the main entry file (`main.jsx` or `index.js`).
+* **Best Practices:** 
   * Use **PascalCase** for component function names and file names (e.g., `MyComponent`).
   * Always use the `.jsx` extension for files that return HTML to avoid common runtime errors.
-* **Debugging (26:47, 28:50):** Practical troubleshooting for common issues like missing exports, improper file naming, and syntax errors in JSX.
+* **Debugging:** Practical troubleshooting for common issues like missing exports, improper file naming, and syntax errors in JSX.
 
 ---
 
